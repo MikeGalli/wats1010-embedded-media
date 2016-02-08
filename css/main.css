@@ -4,7 +4,172 @@
  *
  * Site Styles
  *****************************************************************************/
+html, body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
 
- html {
-     color: green;
- }
+* { 
+/*     -moz-box-sizing: border-box; */
+/*     box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+  border: 0px;
+}
+
+header{
+  height: 200px;
+/*   position: relative; */
+  background-size: 100% 100%;
+/*   width: 100%; */
+/*   height: "500px"; */
+  background-image: url("../img/official_header.jpg");
+  
+}
+
+body{
+    background-color: blue;
+    background-image: url("../img/2bb7d76a7f779cf05a6b47ca93669bfai.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    moz-box-sizing: border-box;
+    box-sizing: border-box
+    padding: 0;
+    margin: 0;
+}
+h1{
+/*   background-color: red; */
+  float: left;
+  margin-left: 44%;
+}
+
+.subtitle{
+  float: left;
+  margin-left: 44%;
+  margin-top: 11rem;
+  margin-bottom: 3px;
+}
+
+ul.main-nav{
+  clear: both;
+  float: center;
+  margin-top: 100px;
+  text-align: center;
+}
+.main-nav{
+  background: black;
+}
+ul.main-nav li{
+  padding-top: 22rem;
+  list-style: none;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+
+aside{
+  margin-left: 2%;
+  padding-right: 2%;
+  position: fixed;
+  background-position: absolute;
+  background-repeate: no-repeat;
+  background-color: rgba(55,218,55,0.3);
+/*   background-image: url("../img/monkaa_bluemonkey.jpg"); */
+  
+}
+.bod{
+  margin-left: 10%;
+  width: 80%;
+  background-color: rgba(55,187,205,0.7);
+}
+h2{
+/*   background-color: lightred; */
+  text-align: center;
+}
+.video{
+/*   background-color: red; */
+  margin-left: 115px;
+}
+h3{
+  text-align: center;
+}
+section#watch{
+  text-align: center;
+}
+section#listen{
+  margin-top: 4rem;
+  text-align: center;
+}
+.download-button:link{
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+    border-width: 4px;
+    border-style: outset;
+    background-color: #33ccff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+.download-button:visited{
+  background-color: #ff66cc;
+}
+.download-button:hover{
+  background-color: #cc33ff;
+}
+.download-button:active{
+  background-color: #33cc33;
+}
+
+.lead{
+    font-family: sans-serif;
+    font-style: bolder;
+    font-size: larger;
+    background-color: rgba(55,187,205,0.7);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.credits{
+  clear: both;
+    margin: 0;
+/*     padding: 0; */
+    padding: 10px;
+/*     background-color: rgba(55,187,205,0.7); */
+    text-align: center;
+/*     margin-left: 10%; */
+/*     margin-right: 10%; */
+}
+.weybec-people li{
+  float: left;
+  margin-top: 2rem;
+  margin-left: 10%;
+  text-align: center;
+  list-style: none;
+  list-style: inline-block;
+}
+
+.headshot{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+  border-width: 4px;
+  border-style: outset;
+}
+
+footer{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 0;
+  padding: 0;
+/*   background-color: rgba(55,187,205,0.7); */
+}
